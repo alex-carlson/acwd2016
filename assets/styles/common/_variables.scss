@@ -1,0 +1,16 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #60AFFF;
+
+@keyframes blink {
+    0% {opacity: 1;}
+    49% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 0;}
+}

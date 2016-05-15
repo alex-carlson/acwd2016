@@ -1,0 +1,1 @@
+<li data-post="<?php the_id(); ?>"><a><?php the_title(); ?></a></li>

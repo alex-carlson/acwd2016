@@ -1,0 +1,61 @@
+
+$blue: #1C6DB8;
+$darkBlue: #165590;
+$yellow: #FFD867;
+$dkyellow: #dbba58;
+$gray: #E6E6E6;
+
+$shadow: 0 0px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+@font-face {
+    font-family: 'Pxlvetica';
+    src: url(../fonts/Pxlvetica.ttf);
+}
+
+body{
+  font-family: 'Pxlvetica', sans-serif;
+}
+
+.blue{
+  background-color: $blue;
+  color: $yellow;
+
+  a{
+    color: $yellow;
+    text-decoration: underline;
+
+    &:visited{
+      color: #948D48;
+    }
+
+    &:hover{
+      color: $yellow;
+    }
+  }
+}
+
+.yellow{
+  background-color: $yellow;
+  color: $blue;
+}
+
+.gray {
+  background-color: #424242;
+  color: #fff;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+p{
+  max-width: 600px;
+  font-size: 22px;
+  line-height: 1.5em;
+  font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Pxlvetica', sans-serif;
+}

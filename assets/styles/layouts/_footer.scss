@@ -1,0 +1,45 @@
+footer{
+  clear: both;
+  font-size: 18px;
+  line-height: 34px;
+
+  .container-fluid{
+    text-align: center;
+
+    .col-md-12{
+      color: #999;
+      padding-top: 10px;
+
+      section{
+        float: left;
+        text-align: left;
+        padding-top: 5px;
+      }
+
+      ul{
+        list-style-type: none;
+        float: right;
+        line-height: 1.6em;
+
+        li{
+          font-size: 18px;
+          display: inline-block;
+          background-color: #999;
+          border-radius: 9999px;
+
+          a{
+            width: 40px;
+            height: 40px;
+            color: $yellow;
+            display: block;
+            padding-top: 9px;
+
+            &:hover{
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
