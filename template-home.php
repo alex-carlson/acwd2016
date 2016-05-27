@@ -42,7 +42,7 @@
             Alex Carlson is a carbon based lifeform who likes to make video games and websites.
           </p>
         </span>
-        <span class="one" style="top: -120px;">
+        <span class="skills">
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -60,7 +60,7 @@
             <li>iOS</li>
           </ul>
         </span>
-        <span class="two" style="top: -120px;">
+        <span class="party">
           <ul>
             <li><a target="-_blank" href="http://mattblizel.com">Matt Blizel</a></li>
             <li><a target="-_blank" href="http://www.benmoren.com/">Ben Moren</a></li>
@@ -70,7 +70,7 @@
             <li><a target="-_blank" href="http://www.jaafaralnabi.com/">Jaafar Alnabi</a></li>
           </ul>
         </span>
-        <span class="three" style="top: -120px;">
+        <span class="quest">
           <p>
             Alex Carlson is a digitally focused creative.  He strives to create unique, custom tailored interactions that are fun and responsive.
           </p>
@@ -78,7 +78,7 @@
             The beauty of the web as a platform, is that it’s so widely accessible.  Therefore, we have a responsibility to make web based work which is equally as accessible.
           </p>
         </span>
-        <span class="four" style="top: -120px;">
+        <span class="diary">
           <ul>
             <li>Work Experience</li>
             <li>Augsburg Fortress</li>
@@ -92,10 +92,10 @@
     </div>
     <div class="actions">
       <ul>
-        <li class="one">Skills</li>
-        <li class="three">Quest</li>
-        <li class="four">Diary</li>
-        <li class="two">Party</li>
+        <li class="skills">Skills</li>
+        <li class="quest">Quest</li>
+        <li class="diary">Diary</li>
+        <li class="party">Party</li>
       </ul>
     </div>
   </div>
