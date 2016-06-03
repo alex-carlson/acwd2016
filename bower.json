@@ -8,7 +8,8 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "3.3.6",
-    "skrollr": "~0.6.30"
+    "skrollr": "~0.6.30",
+    "phaser": "^2.4.8"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -33,5 +34,8 @@
         "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
       ]
     }
+  },
+  "resolutions": {
+    "phaser": "^2.4.8"
   }
 }

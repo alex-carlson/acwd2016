@@ -14,3 +14,8 @@ $brand-primary:         #60AFFF;
     50% {opacity: 0;}
     100% {opacity: 0;}
 }
+
+@keyframes wind {
+    0% {right: -20;}
+    100% {right: 120%;}
+}

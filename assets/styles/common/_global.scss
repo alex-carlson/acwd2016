@@ -1,7 +1,7 @@
 
 $blue: #1C6DB8;
 $darkBlue: #165590;
-$yellow: #FFD867;
+$yellow: #44891A;
 $dkyellow: #dbba58;
 $gray: #E6E6E6;
 
@@ -14,6 +14,24 @@ $shadow: 0 0px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
 body{
   font-family: 'Pxlvetica', sans-serif;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
 
 .blue{

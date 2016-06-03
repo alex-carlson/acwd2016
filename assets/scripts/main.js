@@ -89,6 +89,12 @@
     });
   });
 
+  $('.player').click(function(){
+    console.log('hiding dom stuff over canvas');
+    $('.player p').fadeOut();
+    $('.avatar').fadeOut();
+  })
+
   /* lazyload.js (c) Lorenzo Giuliani
    * MIT License (http://www.opensource.org/licenses/mit-license.html)
    *

@@ -1,4 +1,4 @@
-<footer class="content-info yellow">
+<footer class="content-info">
   <a name="contact"></a>
   <div class="container-fluid">
     <div class="col-md-12">

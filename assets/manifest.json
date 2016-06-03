@@ -19,6 +19,15 @@
     },
     "jquery.js": {
       "bower": ["jquery"]
+    },
+    "phaserfile.js": {
+      "files": [
+        "scripts/phaser/gamecontroller.min.js",
+        "scripts/phaser/phaser.min.js",
+        "scripts/phaser/Boot.js",
+        "scripts/phaser/Preload.js",
+        "scripts/phaser/Game.js"
+      ]
     }
   },
   "config": {
