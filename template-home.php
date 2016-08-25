@@ -26,7 +26,7 @@
   <a name="about"></a>
   <div class="holder">
     <span class="player" id="phaser">
-      <!-- <p>Click to Play</p> -->
+      <p>Click to Play</p>
     </span>
     <div class="wrapper">
         <span

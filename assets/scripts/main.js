@@ -93,6 +93,7 @@
     console.log('hiding dom stuff over canvas');
     $('.player p').fadeOut();
     $('.avatar').fadeOut();
+    $( ".player" ).trigger( "click" );
   })
 
   /* lazyload.js (c) Lorenzo Giuliani
