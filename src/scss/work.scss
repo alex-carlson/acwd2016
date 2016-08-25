@@ -1,0 +1,52 @@
+.work{
+  max-width: 1200px;
+  margin: 0 auto;
+
+  article{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background-color: darken($main, 5%);
+    margin-bottom: 1%;
+    padding: 20px 20px 12px 20px;
+
+    .left{
+      float: left;
+      width: 30%;
+
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .right{
+      float: left;
+      width: 70%;
+      padding: 0 25px;
+      box-sizing: border-box;
+
+      h3{
+        color: $accent;
+        font-size: 24px;
+        margin: 0;
+      }
+
+      p{
+        margin: 10px 0 35px 0;
+
+        &:last-of-type{
+          margin-bottom: 0;
+        }
+      }
+
+      & > *{
+        text-align: left;
+      }
+    }
+
+    .description{
+      clear: left;
+    }
+  }
+}
