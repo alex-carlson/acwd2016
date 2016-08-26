@@ -197,6 +197,7 @@
           cursor: pointer;
           text-align: center;
           position: relative;
+          font-family: 'Hind', sans-serif;
 
           &:hover, &.active{
 
@@ -226,7 +227,7 @@
     .content{
       width: 100%;
       padding: 0 10px;
-      font-size: 24px;
+      font-size: 18px;
       height: 120px;
       box-shadow:
         0 0 0 1px black,
@@ -234,6 +235,7 @@
         0 0 0 4px lightgray;
       background-color: #fff;
       overflow: hidden;
+      font-family: 'Hind', sans-serif;
 
       .hold{
         height: 100%;
@@ -265,13 +267,12 @@
 
           &>*{
             position: absolute;
-            top: -120px;
             background-color: #fff;
           }
 
           p{
             padding-top: 6px;
-            font-family: 'Pxlvetica', sans-serif;
+            font-size: 19px;
           }
 
           ul{

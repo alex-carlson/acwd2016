@@ -63,6 +63,7 @@ SideScroller.Game.prototype = {
 
     this.player.animations.add('run');
     this.player.animations.add('jump');
+    this.player.animations.add('fall');
 
     this.player.anchor.setTo(0.5, 1);
 
@@ -160,6 +161,10 @@ SideScroller.Game.prototype = {
   playerHit: function(player, blockedLayer) {
     //if hits on the right side, die
     if(player.body.touching.right) {
+
+      //this.player = this.game.add.sprite(this.game.world.width/2, this.game.world.height - (160 * 2), '1390140218');
+
+      //this.player.play('fall', 10, true);
 
       //set to dead (this doesn't affect rendering)
       this.player.alive = false;

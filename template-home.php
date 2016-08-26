@@ -100,9 +100,7 @@
         </div>
       </div>
     </div>
-  <div class="dirtstrip">
-
-  </div>
+  <div class="dirtstrip"></div>
 </div>
 
 <div class="container-fluid work">

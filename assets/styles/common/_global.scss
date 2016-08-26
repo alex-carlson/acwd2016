@@ -8,12 +8,12 @@ $gray: #E6E6E6;
 $shadow: 0 0px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
 @font-face {
-    font-family: 'Pxlvetica';
-    src: url(../fonts/Pxlvetica.ttf);
+    font-family: '8bit-wonder';
+    src: url(../fonts/8bit-wonder.ttf);
 }
 
 body{
-  font-family: 'Pxlvetica', sans-serif;
+  font-family: '8bit-wonder', sans-serif;
 }
 
 .cf:before,
@@ -75,5 +75,5 @@ p{
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Pxlvetica', sans-serif;
+  font-family: '8bit-wonder', sans-serif;
 }

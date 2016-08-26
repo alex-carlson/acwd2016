@@ -15,9 +15,10 @@ SideScroller.Preload.prototype = {
 
     //load game assets
     this.load.image('player', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/run_anim.png');
-    this.load.spritesheet('3252523425', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/run_anim.png', 40, 64, 6);
+    this.load.spritesheet('3252523425', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/run_anim.png', 40, 64, 8);
     this.load.image('playerDuck', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/run_anim.png');
-    this.load.image('playerDead', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/player_dead.png');
+    this.load.image('playerDead', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/player_fall.png');
+    this.load.spritesheet('1390140218', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/player_fall.png', 40, 64, 5);
     this.load.image('goldCoin', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/pizza.png');
     this.load.image('floor', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/grass.png');
     this.load.image('sand', mylocalizedscript.myurl+'/dist/scripts/phaser/assets/images/poop.png');
