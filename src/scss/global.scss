@@ -5,6 +5,27 @@ body{
   font-family: 'Hind', sans-serif;
 
   h1, h2, h3, h4, h5, h6{
-    text-align: center;
+
+  }
+  a{
+    color: lighten($accent, 85%);
+    text-shadow: 1px 1px darken($accent, 25%);
+    background-color: $accent;
+    text-decoration: none;
+    padding: 7px 15px 4px 15px;
+    border-radius: 3px;
+    transition: 0.25s ease all;
+
+    &:hover{
+      background-color: lighten($accent, 10%);
+    }
+    &:active{
+      background-color: darken($accent, 10%);
+    }
+  }
+
+  .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }

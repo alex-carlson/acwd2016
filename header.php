@@ -9,6 +9,7 @@
     <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'/ >
     <meta name="msapplication-TileColor" content="#009BC1">
     <meta name="theme-color" content="#009BC1">
+    <title>Alex Carlson</title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/main.css" charset="utf-8">
 
     <?php wp_head(); ?>

@@ -9,14 +9,16 @@
     background-color: darken($main, 5%);
     margin-bottom: 1%;
     padding: 20px 20px 12px 20px;
+    background-size: cover;
 
     .left{
       float: left;
       width: 30%;
 
       img{
-        width: 100%;
+        max-width: 100%;
         height: auto;
+        background-color: #1c1c1c;
       }
     }
 
