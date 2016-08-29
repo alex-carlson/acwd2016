@@ -2,9 +2,55 @@ body{
   background-color: $main;
   color: $text;
   margin: 50px;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
   h1, h2, h3, h4, h5, h6{
-    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+  }
+
+  h1{
+    margin-bottom: 2px;
+  }
+  h2{
+    margin-bottom: 35px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  a{
+    color: $accent;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    & > *{
+      float: left;
+    }
+    .title{
+      width: 20%;
+    }
+    .description{
+      width: 80%;
+
+      & > *{
+        float: left;
+      }
+      p{
+        width: 70%;
+      }
+    }
+    .icon{
+      width: 20%;
+    }
   }
 }

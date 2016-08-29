@@ -6,8 +6,20 @@
 
 <?php get_header(); ?>
 
-<h1>ALEX CARLSON</h1>
-<h2>Game / Web Development</h2>
+<header>
+  <div class="wrapper">
+    <span class="title">
+      <h1>ALEX CARLSON</h1>
+      <h2>Game / Web Development</h2>
+    </span>
+    <span class="description">
+      <img src="http://acwd.me/wp-content/themes/acwd2016/dist/images/alex_idle.gif" alt="" />
+      <p>
+        &mdash;A standard Hi-Resolution Human.  Living in Minneapolis, MN. Likes dogs, and pizza, and making cool stuff with other people who make cool stuff.
+      </p>
+    </span>
+  </div>
+</header>
 
 <div class="work">
   <div class="wrapper">
