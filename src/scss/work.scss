@@ -1,22 +1,21 @@
 .work{
-  max-width: 1200px;
-  margin: 0 auto;
 
   article{
     box-sizing: border-box;
     float: left;
     width: 100%;
     background-color: darken($main, 5%);
-    margin-bottom: 1%;
-    padding: 20px 20px 12px 20px;
+    padding: 50px 20px 42px 20px;
+    background-size: cover;
 
     .left{
       float: left;
       width: 30%;
 
       img{
-        width: 100%;
+        max-width: 100%;
         height: auto;
+        background-color: #1c1c1c;
       }
     }
 
@@ -34,6 +33,8 @@
 
       p{
         margin: 10px 0 35px 0;
+        text-shadow: 1px 1px 5px #000;
+        font-weight: 500;
 
         &:last-of-type{
           margin-bottom: 0;

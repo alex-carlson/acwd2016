@@ -8,33 +8,43 @@
 
 <header>
   <div class="wrapper">
-    <span class="title">
+    <div class="title">
       <h1>ALEX CARLSON</h1>
       <h2>Game / Web Development</h2>
-    </span>
-    <span class="description">
-      <img src="http://acwd.me/wp-content/themes/acwd2016/dist/images/alex_idle.gif" alt="" />
+    </div>
+    <div class="avatar">
+      <img src="http://acwd.me/wp-content/themes/acwd2016/dist/images/alex_idle.gif"/>
+    </div>
+    <div class="description">
       <p>
-        &mdash;A standard Hi-Resolution Human.  Living in Minneapolis, MN. Likes dogs, and pizza, and making cool stuff with other people who make cool stuff.
+        —A standard Hi-Resolution Human. Living in Minneapolis, MN. Likes 🐶, 🍕, and making cool stuff with other people who make cool stuff.
       </p>
-    </span>
+      <span class="social">
+        <ul>
+          <li><a href="//twitter.com/alexcarlson__" target="_blank">Twitter</a></li>
+          <li><a href="//github.com/alex-carlson/" target="_blank">Github</a></li>
+          <li><a href="//vividredemption.itch.io/" target="_blank">itch.io</a></li>
+          <li><a href="mailto:alex@acwd.me">Email</a></li>
+        </ul>
+      </span>
+    </div>
   </div>
 </header>
 
 <div class="work">
-  <div class="wrapper">
   <?php while(the_flexible_field("featured_work") ){ ?>
-      <article>
+    <article>
+      <div class="wrapper">
         <span class="left">
-          <img class="lazy" data-dynamic="<?php the_sub_field('image') ?>" data-static="<?php the_sub_field('preview_image') ?>" src="<?php the_sub_field('preview_image') ?>"/>
+          <img src="<?php the_sub_field('image') ?>"/>
         </span>
         <div class="right">
           <h3><?php the_sub_field('title') ?></h3>
           <?php the_sub_field('description') ?>
           <?php the_sub_field('modal_embed') ?>
         </div>
-      </article>
+      </div>
+    </article>
   <?php }?>
-  </div>
 </div>
 <?php get_footer(); ?>

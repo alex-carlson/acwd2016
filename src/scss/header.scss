@@ -1,0 +1,33 @@
+header{
+  .title, .description, .avatar{
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+  .title{
+    width: 30%;
+    margin-left: 10%;
+  }
+  .avatar{
+    width: 13%;
+  }
+  .description{
+    width: 35%;
+  }
+  .social{
+    width: 100%;
+
+    ul{
+      padding-left: 0;
+      list-style-type: none;
+      display: flex;
+
+      li{
+        flex: auto;
+        box-sizing: border-box;
+        padding: 10px 0;
+        float: left;
+      }
+    }
+  }
+}
