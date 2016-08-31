@@ -24,7 +24,7 @@ body{
     text-shadow: 1px 1px darken($accent, 25%);
     background-color: $accent;
     text-decoration: none;
-    padding: 7px 15px 4px 15px;
+    padding: 10px 15px 9px 15px;
     border-radius: 3px;
     transition: 0.25s ease all;
     font-weight: 500;
@@ -55,7 +55,8 @@ body{
         float: left;
       }
       p{
-        width: 70%;
+        width: 90%;
+        font-size: 18px;
       }
     }
     .icon{

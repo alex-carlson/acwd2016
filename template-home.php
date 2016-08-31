@@ -17,14 +17,14 @@
     </div>
     <div class="description">
       <p>
-        —A standard Hi-Resolution Human. Living in Minneapolis, MN. Likes 🐶, 🍕, and making cool stuff with other people who make cool stuff.
+        —A standard Hi-Resolution Human. Living in Minneapolis, MN. Likes <a href="/dog.jpg" alt="dogs">🐶</a>, <a href="/pizza.jpg" alt="pizza">🍕</a>, and making cool stuff with other people who make cool stuff.
       </p>
       <span class="social">
         <ul>
-          <li><a href="//twitter.com/alexcarlson__" target="_blank">Twitter</a></li>
-          <li><a href="//github.com/alex-carlson/" target="_blank">Github</a></li>
-          <li><a href="//vividredemption.itch.io/" target="_blank">itch.io</a></li>
-          <li><a href="mailto:alex@acwd.me">Email</a></li>
+          <li><a class="cta" href="//twitter.com/alexcarlson__" target="_blank">Twitter</a></li>
+          <li><a class="cta" href="//github.com/alex-carlson/" target="_blank">Github</a></li>
+          <li><a class="cta" href="//vividredemption.itch.io/" target="_blank">itch.io</a></li>
+          <li><a class="cta" href="mailto:alex@acwd.me">Email</a></li>
         </ul>
       </span>
     </div>

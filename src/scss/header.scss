@@ -15,6 +15,14 @@ header{
   }
   .description{
     width: 35%;
+
+    p{
+      a{
+        background-color: transparent;
+        padding: 0;
+        text-shadow: none;
+      }
+    }
   }
   .social{
     width: 100%;
