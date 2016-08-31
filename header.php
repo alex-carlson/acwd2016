@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#009BC1">
     <title>Alex Carlson</title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/main.css" charset="utf-8">
-    <script src="https://npmcdn.com/grade-js/docs/dist/grade.js" type="text/javascript"></script>
+    <script src="https://rawgit.com/pseudosavant/psColor/master/psColor.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/dist/main.js" charset="utf-8"></script>
 
     <?php wp_head(); ?>
