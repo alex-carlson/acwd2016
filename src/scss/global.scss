@@ -9,17 +9,23 @@ body{
     margin: 0;
   }
 
-  h1{
+  h1, h2{
     margin-bottom: 2px;
-  }
-  h2{
-    margin-bottom: 35px;
   }
 
   p{
     font-size: 14px;
   }
+
   a{
+    color: white;
+  }
+
+  .description a{
+    text-decoration: none;
+  }
+
+  .description li a, a.cta{
     color: lighten($accent, 85%);
     text-shadow: 1px 1px darken($accent, 25%);
     background-color: $accent;
@@ -34,33 +40,6 @@ body{
     }
     &:active{
       background-color: darken($accent, 10%);
-    }
-  }
-
-  .wrapper{
-    max-width: 1200px;
-    margin: 0 auto;
-
-    & > *{
-      float: left;
-    }
-    .title{
-      width: 20%;
-      padding: 25px 0;
-    }
-    .description{
-      width: 40%;
-
-      & > *{
-        float: left;
-      }
-      p{
-        width: 90%;
-        font-size: 18px;
-      }
-    }
-    .icon{
-      width: 20%;
     }
   }
 }

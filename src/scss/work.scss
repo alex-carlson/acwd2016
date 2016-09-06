@@ -1,6 +1,7 @@
 .work{
   margin-top: 50px;
   float: left;
+  width: 100%;
 
   article{
     box-sizing: border-box;
@@ -9,10 +10,19 @@
     background-color: darken($main, 5%);
     padding: 50px 20px 42px 20px;
     background-size: cover;
+    box-sizing: border-box;
+
+    &:nth-of-type(odd){
+      background-color: darken($main, 10%);
+    }
 
     .left{
       float: left;
-      width: 30%;
+      width: 100%;
+
+      @include bp(lrg){
+        width: 30%;
+      }
 
       img{
         max-width: 100%;
@@ -23,9 +33,19 @@
 
     .right{
       float: left;
-      width: 70%;
+      width: 100%;
       padding: 0 25px;
       box-sizing: border-box;
+
+      @include bp(lrg){
+        width: 70%;
+      }
+
+      iframe{
+        width: 100% !important;
+        max-width: 552px;
+        height: auto !important;
+      }
 
       h3{
         color: $accent;
@@ -49,6 +69,10 @@
 
     .description{
       clear: left;
+
+      a{
+        width: 100%;
+      }
     }
   }
 }

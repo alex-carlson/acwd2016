@@ -3,18 +3,27 @@ header{
 
   .title, .description, .avatar{
     float: left;
-    padding: 25px;
+    padding: 10px 25px;
     box-sizing: border-box;
+    text-align: center;
   }
   .title{
-    width: 30%;
-    margin-left: 10%;
+    @include bp(lrg){
+      width: 30%;
+    }
+    width: 100%;
   }
   .avatar{
-    width: 13%;
+    @include bp(lrg){
+      width: 13%;
+    }
+    width: 100%;
   }
   .description{
-    width: 35%;
+    @include bp(lrg){
+      width: 35%;
+    }
+    width: 100%;
 
     p{
       a{
@@ -30,13 +39,23 @@ header{
     ul{
       padding-left: 0;
       list-style-type: none;
-      display: flex;
 
       li{
-        flex: auto;
         box-sizing: border-box;
         padding: 10px 0;
         float: left;
+        width: 100%;
+
+        @include bp(lrg){
+          width: 23%;
+          margin: 3px 1%;
+        }
+
+        a{
+          width: 100%;
+          display: block;
+          padding: 9px 0;
+        }
       }
     }
   }

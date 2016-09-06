@@ -1,3 +1,23 @@
 $main: #323232;
 $text: #dedede;
 $accent: #fa5c5c;
+
+@mixin bp($point) {
+    $med: "(min-width: 768px)";
+    $large: "(min-width: 1024px)";
+    $small: "(max-width: 768px)";
+    $mobile: "(max-width: 1024px)";
+
+    @if $point == med {
+      @media all and #{$med} { @content; }
+    }
+    @if $point == lrg {
+      @media all and #{$large} { @content; }
+    }
+    @if $point == sm {
+    	@media all and #{$small} { @content; }
+    }
+    @if $point == mobile {
+    	@media all and #{$mobile} { @content; }
+    }
+}

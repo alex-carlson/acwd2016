@@ -36,7 +36,15 @@
     <article>
       <div class="wrapper">
         <span class="left">
-          <img src="<?php the_sub_field('image') ?>"/>
+          <?php
+            $attachment_id = get_sub_field('image');
+            $size = "medium"; // (thumbnail, medium, large, full or custom size)
+            $image = wp_get_attachment_image_src( $attachment_id, $size );
+            // url = $image[0];
+            // width = $image[1];
+            // height = $image[2];
+          ?>
+          <img src="<?php echo $image[0]; ?>" />
         </span>
         <div class="right">
           <h3><?php the_sub_field('title') ?></h3>

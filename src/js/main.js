@@ -6,7 +6,6 @@ window.addEventListener('load', function(){
      */
     //Grade(document.querySelectorAll('article'))
     var a = document.querySelectorAll('article');
-    console.log(a.length);
 
     for(i = 0; i < a.length; i++){
 
@@ -22,8 +21,6 @@ function getColor(item){
   var darken = -80;
 
   var color = "rgb("+(c.channels.r+darken)+", "+(c.channels.g+darken)+", "+(c.channels.b+darken)+")";
-
-  console.log(color);
 
   return color;
 }
