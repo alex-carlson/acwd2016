@@ -7,13 +7,13 @@
     box-sizing: border-box;
     float: left;
     width: 100%;
-    background-color: darken($main, 5%);
     padding: 50px 20px 42px 20px;
     background-size: cover;
     box-sizing: border-box;
+    background: darken($main, 10%) url("bg.png");
 
     &:nth-of-type(odd){
-      background-color: darken($main, 10%);
+      background: darken($main, 10%) url("bg2.png");
     }
 
     .left{

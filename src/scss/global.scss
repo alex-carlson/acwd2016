@@ -1,5 +1,5 @@
 body{
-  background-color: $main;
+  background: $main url("bg.png");
   color: $text;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -19,6 +19,11 @@ body{
 
   a{
     color: white;
+  }
+
+  .wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
   }
 
   .description a{

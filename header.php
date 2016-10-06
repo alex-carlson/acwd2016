@@ -15,6 +15,11 @@
     <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'/ >
     <meta name="msapplication-TileColor" content="#777777">
     <meta name="theme-color" content="#777777">
+    <meta property="og:site_name" content="WARPAINT Media">
+    <meta property="og:title" content="Alex Carlson: Game/Web Developer">
+    <meta property="og:description" content="Minneapolis based artist. Likes pizza and dogs.">
+    <meta property="og:image" content="https://en.gravatar.com/userimage/14851898/95e9cfa401d70d4100e7d51bd0e3e237.jpg?size=200">
+    <meta property="og:url" content="http://acwd.me">
     <title>Alex Carlson</title>
     <script>
       var cb = function() {
